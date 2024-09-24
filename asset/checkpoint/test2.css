@@ -1,0 +1,30 @@
+.navbar {
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+#cartee {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 5%;
+  background-color: black;
+}
+h1 {
+  color: rgb(232, 232, 232) !important;
+  /* border: solid white; */
+}
+p {
+  color: white;
+}
+.card-text {
+  color: black;
+}
+img {
+  width: 200px;
+}
+#cards {
+  display: grid !important;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr;
+  grid-row: 10px !important;
+}
